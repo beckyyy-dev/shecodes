@@ -1,24 +1,36 @@
-# 🤖 Question Generator 🚀
-
 Ever wanted to create your own super-powered quiz? This app lets you pick a subject and a topic, and then it finds cool questions for you!
 
-## 🛠️ Quick Start
+## Installation
+Clone the repo:
+git clone https://github.com/beckyyy-dev/shecodes.git
 
-1.  **Open your terminal** and enter the folder.
-2.  **Turn on your Python environment**:
+
+Go into the folder:
+cd shecodes
+
+Create a virtual environment:
+python -m venv venv
+
+Activate it:
+
+  **Open your terminal** and enter the folder.
+  **Turn on your Python environment**:
     *   Linux/Mac: `source .venv/bin/activate`
     *   Windows: `.venv\Scripts\activate`
-3.  **Install the magic tools** (only the first time):
+  **Install the magic tools** (only the first time):
     ```bash
     .venv\Scripts\activate
+    install packages:
+    pip install fastapi uvicorn requests
+
+    Run the app:
     uvicorn main:app --reload --port 3003
-    ```
-4.  **Launch the app**:
+    ``` **Launch the app**:
     ```bash 
     uvicorn main:app --reload --port 3003
     
     ```
-5.  **Open your browser** and go to: `http://localhost:3003`
+  **Open your browser** and go to: `http://localhost:3003`
 
 ## 🎮 How to Play
 
@@ -29,6 +41,6 @@ Ever wanted to create your own super-powered quiz? This app lets you pick a subj
 
 ## 📂 What's inside?
 - `main.py`: The "brain" of our app.
-- `static/index.html`: The "face" of our app that you see in the browser.
+- `index.html`: The "face" of our app that you see in the browser.
 
-Built with ❤️ by Startocode.
+
